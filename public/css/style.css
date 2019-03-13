@@ -1,0 +1,227 @@
+header{
+    width: 100%;
+}
+header>.row-1{
+    height : auto;
+    background: #eeeeee;
+    margin : auto;
+    width : 100%
+}
+header>.row-2{
+    height : 70px;
+    background: #fff;
+    margin : auto;
+}
+header>.row-3{
+    margin : auto;
+    width : 100%;
+    height : max-content;
+}
+header>.row-3>.row>.navbar.navbar-default{
+    background:#155e90;
+    border-radius: 0;
+    margin : 0;
+    border-color : #155e90;
+}
+header>.row-3>.row>.navbar.navbar-default a{
+    color: #fff;
+    font-weight: bold;
+}
+header>.row-3>.row>.navbar.navbar-default ul>li{
+    border-right: 1px solid #fff; 
+}
+header>.row-3>.row>.navbar.navbar-default ul>li:first-child{
+    border-left: 1px solid #fff; 
+}
+.main-bg-color{
+    background: #155e90;
+}
+.main-color{
+    color: #155e90;
+}
+.active-color{
+    color : #f4a12b
+}
+.w-color{
+    color : #fff;
+}
+.f18{
+    font-size : 18px;
+}
+.f14{
+    font-size: 14px;
+}
+.b{
+    font-weight : bold;
+}
+.center{
+    text-align : center;
+}
+.pointer{
+    cursor : pointer;
+}
+.pdl0{
+    padding-left : 0;
+}
+.pdl10{
+    padding-left : 10px;
+}
+.pdr0{
+    padding-right: 0; 
+}
+.pdr10{
+    padding-right: 10px; 
+}
+.mgt0{
+    margin-top: 0 !important;
+}
+.mgr0{
+    margin-right: 10px !important;
+}
+.mgl0{
+    margin-left: 10px !important;
+}
+.mgt10{
+    margin-top: 10px !important;
+}
+.box-category-home{
+    height : auto;
+    margin-top : 20px;
+}
+.box-category-home>.box-category-header{
+    background : #155e90;
+    height : 50px;
+    width : 100%;
+}
+.box-category-home>.box-category-header ul{
+    display : table;
+    height : 100%;
+}
+.box-category-home>.box-category-header ul>li{
+    float : left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3;
+    border-right : 1px solid #fff;
+    padding: 0 10px;
+    height : 100%;
+}
+.box-category-home>.box-category-header ul>li>a{
+    color: #fff;
+}
+.box-category-home>.box-category-content{
+    margin-top : 10px;
+}
+.box-category-item{
+    height : 325px;
+    border: 2px solid #ccc;
+}
+.box-category-item>.item-img{
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+}
+.box-category-item>.item-img>a{
+    text-align: center;
+}
+.box-category-item>.item-title{
+    height: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+.box-category-item>.item-title>a{
+    font-weight: bold;
+    color: #155e90;
+    text-align: center;
+}
+.box-category-item>.item-price{
+    height: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+.box-category-item>.item-price>a{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.box-category-item>.item-action{
+    height: 25px;
+    text-align: center;
+}
+.box-category-item>.item-action>i{
+    cursor: pointer;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+}
+.box-item-product{
+    background-color: rgb(250, 250, 250);
+    display: block;
+}
+.box-item-product>.box-header{
+    background-color: #155e90;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    height: 5%;
+    font-size: 15px;
+}
+.box-item-product>.box-content{
+    padding: 5px;
+    height: 95%;
+}
+.box-item-product>.box-content>ul>li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+}
+.box-item-product>.box-content>ul>li .img{
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.box-item-product>.box-content>ul>li .img img{
+    width: 100%;
+}
+.list-menu{
+    position : relative;    
+}
+.list-menu .list-menu-child{
+    display: none;
+}
+.list-menu.activeList{
+    background : #fff;
+    border : 0;
+}
+.list-menu.activeList>a{
+    color : #155e90 !important;
+}
+.list-menu .list-menu-child{
+    position : absolute;
+    top : 50px;
+    left: -1px;
+    width: calc(100% + 2px);
+    z-index : 100;
+}
+.list-menu-child>.item{
+    background : #155e90;
+    border : 0 !important;
+    height : 50px;
+    padding-left : 10px;
+    line-height : 3
+}
+.list-menu.activeList>.list-menu-child{
+    display: block;
+
+}
+.tab-contain>.tab-item{
+    display: none;
+}
+.tab-click.activeTab{
+    color: red;
+}
+.tab-item.activeTab{
+    color: red;
+    display: block !important;
+}
